@@ -22,4 +22,5 @@ if __name__ == "__main__":
         a=1/0
     
     except Exception as e:
+        print("started")
         raise customexception(e,sys)
